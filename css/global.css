@@ -1,0 +1,80 @@
+
+/* -----------Specification------------- */
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 18px;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+.d-flex {
+  display: flex;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+div, p, form, input, button, a, span {
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+  font-size: 22px;
+  line-height: 31px;
+}
+input, input:hover, input:focus, input:active, button, button:hover, button:focus, button:active {
+  outline: none;
+}
+button {
+  padding: 0;
+}
+a, a:hover, a:active {
+  text-decoration: none;
+}
+a, button, input {
+  transition: all 0.5s ease;
+}
+.btn:hover {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.8);
+}
+.btn:active {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+ul, li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+h2 {
+  font-size: 58px;
+  line-height: 68px;
+}
+h3 {
+  font-size: 37px;
+  line-height: 43px;
+}
+h4 {
+  font-size: 23px;
+  line-height: 33px;
+}
+.link {
+  font-size: 17px;
+  line-height: 31px;
+  color: #000;
+  border-bottom: 1px dotted #000;
+  padding-bottom: 4px;
+}

@@ -1,0 +1,55 @@
+
+/* --------------Header------------- */
+
+.header {
+    background-color: #F8DF3B;
+    padding: 74px 0 100px 0;
+}
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 69px;
+}
+.offer {
+    max-width: 710px;
+    width: 100%;
+}
+.offer_workshop {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.offer_workshop i {
+font-size: 16px;
+}
+.offer_title {
+    font-size: 61px;
+    line-height: 71px;
+    margin: 31px 0 46px 0;
+}
+.offer_list {
+    font-size: 19px;
+    line-height: 22px;
+    margin-bottom: 47px;
+}
+.offer_item:not(:last-child) {
+    margin-bottom: 7px;
+}
+.offer_item i {
+    font-size: 16px;
+}
+.btn {
+    min-width: 309px;
+    background-color: black;
+    color: #fff;
+    font-size: 19px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-weight: 900;
+    display: table-cell;
+    padding: 29px 45px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}

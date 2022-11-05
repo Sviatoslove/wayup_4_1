@@ -1,0 +1,27 @@
+
+/*------------------ Money Section ---------------*/
+
+.money {
+    background-color: #000;
+}
+.question_white {
+    color: #fff;
+}
+.amount {
+    max-width: 479px;
+    width: 100%;
+    background-color: #F8DF3B;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.amount_money {
+    font-size: 72px;
+    font-weight: 900;
+}
+.amount_money span {
+    font-size: 34px;
+    line-height: 31px;
+    text-transform: uppercase;
+    display: block;
+}

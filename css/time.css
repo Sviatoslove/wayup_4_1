@@ -1,0 +1,38 @@
+
+/* ------------------Time Section--------------- */
+
+.time {
+    background-color: #000;
+    color: #fff;
+}
+.way {
+}
+.way_title {
+    display: flex;
+
+}
+.way_elem {
+    padding: 19px 0 18px;
+    display: block;
+}
+.way_elem_yellow {
+    background-color: #F8DF3B;
+    color: #fff;
+    padding: 19px 32px 18px 30px;
+    margin: 0 26px ;
+}
+.way_start {
+    font-size: 19px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.way_info:not(:last-child) {
+    margin-right: 10px;
+}
+.way_info:after {
+    content: "/";
+    margin-left: 10px;
+}
+.way_info:last-child::after {
+    display: none;
+}
